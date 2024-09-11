@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empowering Tomorrow</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans">
+    <!-- Navbar -->
+    <nav class="flex justify-between items-center px-8 py-4 bg-white shadow-md">
+        <div>
+           <img
+            class="w-16 h-16"
+            src="./public/assets/logo.png"
+            alt="empowering tomorrow logo"
+          />
+        </div>
+        <div class="space-x-8 text-gray-800">
+            <a href="index.html" class="hover:text-green-600">About Us</a>
+            <a href="whatwedo.html" class="hover:text-green-600">What We Do</a>
+            <a href="contact.html" class="hover:text-green-600">Contact Us</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative">
+        <img src="your-hero-image-path.jpg" alt="Hero Image" class="w-full h-96 object-cover">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="text-center py-12 px-4">
+        <h2 class="text-2xl font-semibold text-gray-800">We would love to hear from you!</h2>
+        <div class="flex justify-center mt-4 space-x-4">
+            <button class="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700">Donate to ET</button>
+            <button class="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700">Volunteer at ET</button>
+        </div>
+        <p class="mt-6 text-lg text-gray-600">You can email us on</p>
+        <p class="text-green-600 font-semibold">empoweringtomorrow2022@gmail.com</p>
+        <p class="mt-4 text-gray-600">You can alternatively fill this form and get in touch with us.</p>
+
+        <!-- Contact Form -->
+        <form class="max-w-3xl mx-auto mt-8 space-y-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <input type="text" placeholder="First Name" class="border border-gray-300 p-3 rounded focus:outline-none focus:ring-2 focus:ring-green-600">
+                <input type="text" placeholder="Last Name" class="border border-gray-300 p-3 rounded focus:outline-none focus:ring-2 focus:ring-green-600">
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <input type="tel" placeholder="Phone Number" class="border border-gray-300 p-3 rounded focus:outline-none focus:ring-2 focus:ring-green-600">
+                <input type="email" placeholder="Email Address" class="border border-gray-300 p-3 rounded focus:outline-none focus:ring-2 focus:ring-green-600">
+            </div>
+            <textarea placeholder="What are you Contacting us for?" class="border border-gray-300 p-3 rounded w-full h-32 focus:outline-none focus:ring-2 focus:ring-green-600"></textarea>
+            <button class="bg-green-600 text-white px-6 py-3 rounded hover:bg-green-700">Submit</button>
+        </form>
+    </section>
+
+    <!-- Social Section -->
+    <section class="text-center py-8 bg-gray-100">
+        <h3 class="text-lg font-semibold text-gray-800">Follow us on</h3>
+        <div class="flex justify-center mt-4 space-x-4">
+            <a href="#"><img
+                class="w-16 h-16"
+                src="./public/assets/logo.png"
+                alt="empowering tomorrow logo"
+              /></a>
+            <a href="#"><img src="instagram-icon-path.png" alt="Instagram" class="h-10"></a>
+            <a href="#"><img src="linkedin-icon-path.png" alt="LinkedIn" class="h-10"></a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="flex justify-around">
+            <div>
+                <h4 class="font-semibold mb-2">Get to know us</h4>
+                <ul>
+                    <li><a href="#" class="hover:text-gray-400">About Us</a></li>
+                    <li><a href="#" class="hover:text-gray-400">What We Do</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-semibold mb-2">Connect with us</h4>
+                <ul>
+                    <li><a href="#" class="hover:text-gray-400">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="space-y-4">
+                <button class="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700">Donate Now</button>
+                <button class="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700">Volunteer Now</button>
+            </div>
+        </div>
+        <div class="text-center mt-6">
+            <p>© Empowering Tomorrow</p>
+            <div class="flex justify-center space-x-4 mt-2">
+                <a href="#"><img src="facebook-icon-footer-path.png" alt="Facebook" class="h-6"></a>
+                <a href="#"><img src="instagram-icon-footer-path.png" alt="Instagram" class="h-6"></a>
+                <a href="#"><img src="linkedin-icon-footer-path.png" alt="LinkedIn" class="h-6"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
